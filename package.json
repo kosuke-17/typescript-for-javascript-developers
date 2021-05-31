@@ -4,15 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "ts-node-dev --respawn",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "typescript": "^3.7.5"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "ts-node": "^10.0.0"
+    "ts-node": "^10.0.0",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^3.7.5"
   }
 }
